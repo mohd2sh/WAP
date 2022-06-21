@@ -18,3 +18,14 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 15pt;
 }
+
+a{
+text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+p::first-letter{
+font-size: 1.5em;
+}
