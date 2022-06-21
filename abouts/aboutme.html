@@ -11,7 +11,7 @@
 <body>
     <h1 class="header1">About Me Page</h1>
 
-    <p>My name is Mohammad Shakhtour <span class="emphasize"> am a Software Developer and am feeling bad to do this stuff as its basics </span> </p>
+    <p class="paragragh">My name is Mohammad Shakhtour <span class="emphasize"> am a Software Developer and am feeling bad to do this stuff as its basics </span> </p>
     
     <h3 class="header2">My Courses </h3>
     <ul class="customList">
@@ -24,8 +24,18 @@
     </ul>
 
     <h3 class="header2">My Favorite Movies</h3>
-    <ol>
-        <li>The Dark Knight  (<a href="https://www.imdb.com/title/tt0468569/">IMDB</a>) </li>
+    <ol class="movie-list" reversed>
+        <li>
+            The Dark Knight  (<a href="https://www.imdb.com/title/tt0468569/">IMDB</a>) 
+            <ul class="abstracted-list">
+                <li>Director
+                    <div class="nested-list-item">Christopher Nolan</div>
+                </li>
+                <li>Genre
+                    <div class="nested-list-item">Action /Crime /Drama</div>
+                </li>
+            </ul>
+        </li>
         <li>CastAway  (<a href="https://www.imdb.com/title/tt0162222/">IMDB</a>) </li>
         <li>The Godfather (<a href="https://www.imdb.com/title/tt0068646/">IMDB</a>)</li>
     </ol>

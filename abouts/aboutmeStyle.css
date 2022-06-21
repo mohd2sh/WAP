@@ -26,6 +26,17 @@ text-decoration: none;
 a:hover{
     text-decoration: underline;
 }
-p::first-letter{
+.paragragh::first-letter{
 font-size: 1.5em;
+}
+
+.abstracted-list{
+    list-style: none;
+}
+
+.nested-list-item{
+    margin-left: 10pt;
+}
+.movie-list{
+  
 }
