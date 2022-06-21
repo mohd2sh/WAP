@@ -1,0 +1,20 @@
+.emphasize{
+    font-weight: bold;
+    color:gold
+}
+
+.header1{
+    color:#0076ff;
+}
+
+.header2{
+    color:blue;
+}
+
+body{
+    background-color: darkgray;
+}
+.customList{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+}
