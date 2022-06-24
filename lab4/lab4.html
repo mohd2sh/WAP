@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./lab4.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="header pt-2 pb-1 ">
+        <div class="col-md-4">
+            <div class="form-group  row">
+                <label class="col-sm-5 col-form-label "  style="font-size: 15px;font-weight: bold;">WorkShop Regestration.</label>
+                
+                
+                <select style="font-size: 12px" >
+                    <option selected disabled>More Actions</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+             </div>
+        </div>
+       
+
+      
+     
+    </div>
+    <div class="body pl-2 pt-2">
+        <p>Register now while seats are available !</p>
+        <form class="form-horizontal" action="#" method="get">
+            
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-md-5" >
+                    <div class="form-group required row">
+                        <label class="col-sm-4 col-form-label contrl-label"   for="fname">First Name</label>
+                        <input type="text" class="form-control col-sm-8 " name="fname" id="fname" />
+                     </div>
+
+                     <div class="form-group row required">
+                        <label class="col-sm-4 col-form-label"  for="lname">Last Name</label>
+                        <input type="text" class="form-control col-sm-8 " name="lname" id="lname" />
+                     </div>
+
+                     <div class="form-group row required">
+                        <label class="col-sm-4 col-form-label"  for="company">Company </label>
+                        <input type="text" class="form-control col-sm-8 " name="company" id="company" />
+                     </div>
+
+
+                     <div class="form-group row required">
+                        <label class="col-sm-4 col-form-label"  for="company">Address </label>
+                        <textarea  class="form-control col-sm-8" name="address"> </textarea>
+                       
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="city">City </label>
+                        <input type="text" class="form-control col-sm-8" name="city" id="city" />
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="inlineFormCustomSelect">State/Province/Region </label>
+                        <select class="custom-select  col-sm-8 " id="inlineFormCustomSelect">
+                            <option selected>Choose...</option>
+                            <option value="1">Iowa</option>
+                            <option value="2">Florida</option>
+                            <option value="3">California</option>
+                          </select>
+                     </div>
+
+                     
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="Country">Country </label>
+                        <select class="custom-select  col-sm-8 " id="Country">
+                            <option selected>Choose...</option>
+                            <option value="1">USA</option>
+                            <option value="2">Jorda</option>
+                            <option value="3">Canda</option>
+                          </select>
+                     </div>
+
+                     <div class="form-group row required">
+                        <label class="col-sm-4 col-form-label "  for="Email">Email </label>
+                        <input type="text" class="form-control col-sm-8 " name="Email" id="Email" />
+                     </div>
+
+                     <div class="form-group row required">
+                        <label class="col-sm-4 col-form-label"  for="phone">Phone Number </label>
+                        <input type="text" class="form-control col-sm-8 " name="phone" id="phone" />
+                     </div>
+                    
+                   
+                </div>
+
+                <div class="col-md-1">
+
+                </div>
+
+                <div class="col-md-5">
+
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="lunch"> <h6>Lunch </h6></label>
+                        <div  class=" col-sm-8 "  ></div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="meal">Meal preference </label>
+                        <select class="custom-select  col-sm-8 " id="meal">
+                            <option selected disabled>Choose...</option>
+                            <option value="1">Chicken</option>
+                            <option value="2">Meat</option>
+                            <option value="3">Fruit</option>
+                          </select>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  ><h6> Payment Details </h6></label>
+                        <div  class=" col-sm-8 "  ></div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="meal">Payment Mode </label>
+                        <div class="col-sm-8">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                Cash
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2">
+                                 Cheque
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                <label class="form-check-label" for="defaultCheck3">
+                                 Deman Draft
+                                </label>
+                              </div>
+                        </div>
+                     
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="cheque">DD/Cheque No. </label>
+                        <input type="text" class="form-control col-sm-8 " name="cheque" id="cheque" />
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="bank">Draw On(Bank Name). </label>
+                        <input type="text" class="form-control col-sm-8 " name="bank" id="bank" />
+                     </div>
+
+
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"  for="payat">Payable at </label>
+                        <input type="text" class="form-control col-sm-8 " name="payat" id="payat" />
+                     </div>
+                    
+                </div>
+            </div>
+            </div>
+            <footer class="footer">
+                <div class="row">
+                    <div class="col-md-5">
+        
+                    </div>
+                    <div class="col-md-2">
+                        <input class="btn btn-info" title="Info" type="submit"/>
+                        <input type="reset" class="btn btn-info" title="reset"  />
+                    </div>
+                    <div class="col-md-5">
+            
+                    </div>
+                </div>
+                
+            </footer>
+        </form>
+    </div>
+
+    
+</body>
+</html>

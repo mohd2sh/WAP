@@ -1,0 +1,13 @@
+.header{
+    background-color: #a2cbbc;
+}
+
+
+.form-group.required .col-form-label:after {
+    content:" *";
+    color:red;
+  }
+
+  .footer{
+    background-color: #e3e3e3;
+  }
